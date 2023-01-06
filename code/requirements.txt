@@ -1,0 +1,4 @@
+kivy
+pygame
+matplotlib
+numpy
