@@ -174,7 +174,9 @@ class MainRsp(Screen):
             self.databasehr.add_widget(self.table)
     def on_leave(self, *args):   
         self.n.text=""
-        self.ans=None
+        #self.ans=None
+        self.databasehr.remove_widget(self.table)
+        self.table=ObjectProperty(None)
 
 
 
